@@ -40,6 +40,30 @@ android {
         compose = true
         buildConfig = true
     }
+
+    // TODO: move sensible data to local.properties before production
+    flavorDimensions += "environment"
+    productFlavors {
+        create("dev") {
+            dimension = "environment"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "-dev"
+            buildConfigField("String", "AML_BASE_URL", "\"http://10.0.2.2:8081/\"")
+            buildConfigField("String", "BANK_BASE_URL", "\"http://10.0.2.2:8082/\"")
+            buildConfigField("String", "GEO_BASE_URL", "\"http://ip-api.com/\"")
+            buildConfigField("String", "AML_API_KEY", "\"dev-aml-key\"")
+            buildConfigField("String", "BANK_API_KEY", "\"dev-bank-key\"")
+        }
+
+        create("prod") {
+            dimension = "environment"
+            buildConfigField("String", "AML_BASE_URL", "")
+            buildConfigField("String", "BANK_BASE_URL", "")
+            buildConfigField("String", "GEO_BASE_URL", "")
+            buildConfigField("String", "AML_API_KEY", "")
+            buildConfigField("String", "BANK_API_KEY", "")
+        }
+    }
 }
 
 dependencies {
