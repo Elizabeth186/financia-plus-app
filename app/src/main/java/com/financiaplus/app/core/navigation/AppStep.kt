@@ -15,6 +15,8 @@ object StepData {
     val AML_VALIDATION    = StepInfo(R.string.aml_validation,2,  TOTAL)
     val CLIENT_CHECK      = StepInfo(R.string.client_check,3,  TOTAL)
     val DOCUMENT_CAPTURE  = StepInfo(R.string.document_capture,4,  TOTAL)
+    val DOCUMENT_REVIEW   = StepInfo(R.string.document_review,5,  TOTAL)
+
 
 
 

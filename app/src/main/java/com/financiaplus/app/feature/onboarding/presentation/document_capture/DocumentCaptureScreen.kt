@@ -52,7 +52,7 @@ fun DocumentCaptureRoot(
 
     LaunchedEffect(uiState.navigateToNext) {
         if (uiState.navigateToNext) {
-          //  navController.navigate(Screen.DocumentReview.route)
+           navController.navigate(Screen.DocumentReview.route)
             viewModel.onNavigated()
         }
     }

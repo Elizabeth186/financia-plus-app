@@ -15,8 +15,7 @@
     <string name="aml_validation">Validando identidad…</string>
     <string name="client_check">Verificando cliente…</string>
     <string name="document_capture">Capturando documento</string>
-
-
+    <string name="document_review">Revisando datos</string>
 
 
     <!-- TODO: Onboarding -->
@@ -50,11 +49,23 @@
     <string name="doc_capture_doc">Capturar documento</string>
     <string name="doc_capture_quality_error">La calidad del documento no es suficiente</string>
 
+    <!-- Document Review -->
+    <string name="doc_review_data">Datos extraídos del documento</string>
+    <string name="doc_review_data_detail">Verifica que la información sea correcta antes de continuar.</string>
+    <string name="doc_review_id">Documento</string>
+    <string name="doc_review_name">Nombre</string>
+    <string name="doc_review_birth_date">Fecha de nacimiento</string>
+    <string name="doc_review_confirm">Confirmar y continuar</string>
+
+
+
     <!-- message response -->
     <string name="data_empty">No se encontraron datos</string>
     <string name="er">Ocurrió un error al procesar la solicitud.</string>
     <string name="blocked_process">Proceso bloqueado</string>
     <string name="error_verified">Error al verificar</string>
+
+
 
 
 </resources>

@@ -8,6 +8,9 @@ sealed class Screen(val route: String) {
     object AmlValidation : Screen("onboarding/aml_validation")
     object ClientCheck : Screen("onboarding/client_check")
     object DocumentCapture : Screen("onboarding/document_capture")
+    object DocumentReview : Screen("onboarding/document_review")
+
+
 
 
 
