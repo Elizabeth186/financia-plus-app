@@ -32,3 +32,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+### Mac ###
+.DS_Store
+*.DS_Store
+
+# Secrets
+google-services.json
+local.properties
+*.env
