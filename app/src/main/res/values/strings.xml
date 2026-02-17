@@ -9,8 +9,10 @@
     <string name="retry">Reintentar</string>
     <string name="finish">Finalizar</string>
 
+
     <!-- step titles -->
     <string name="document_id">Identificación</string>
+    <string name="aml_validation">Validando identidad…</string>
 
 
     <!-- TODO: Onboarding -->
@@ -21,7 +23,17 @@
     <string name="document_id_number">Número de documento</string>
     <string name="document_id_error">Debes ingresar un número de documento válido.</string>
 
+    <!-- AML Validation -->
+    <string name="aml_success">Validación exitosa</string>
+    <string name="aml_success_detail">No se encontraron restricciones AML.</string>
+    <string name="aml_blocked">Proceso bloqueado</string>
+    <string name="aml_blocked_detail">No es posible continuar con el proceso de onboarding.</string>
+    <string name="aml_validating">Validando identidad…</string>
 
+
+    <!-- message response -->
+    <string name="data_empty">No se encontraron datos</string>
+    <string name="er">Ocurrió un error al procesar la solicitud.</string>
 
 
 </resources>

@@ -35,6 +35,7 @@ fun DocumentIdRoot(
 
     LaunchedEffect(uiState.navigateToNext) {
         if (uiState.navigateToNext) {
+            navController.navigate(Screen.AmlValidation.route)
         }
     }
 

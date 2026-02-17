@@ -1,7 +1,6 @@
 package com.financiaplus.app.feature.onboarding.presentation.document_id
 
 import androidx.lifecycle.ViewModel
-import com.financiaplus.app.R
 import com.financiaplus.app.core.navigation.StepData
 import com.financiaplus.app.core.security.SessionManager
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -45,7 +44,7 @@ class DocumentIdViewModel @Inject constructor(
         val documentId = _uiState.value.documentId.trim()
 
         if (documentId.isBlank()) {
-            _uiState.update { it.copy(error = R.string.document_id_error) }
+            _uiState.update { it.copy(error = "El documento es requerido") }
             return
         }
         sessionManager.saveDraftField(SessionManager.KEY_DOCUMENT_ID, documentId)

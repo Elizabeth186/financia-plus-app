@@ -12,5 +12,6 @@ object StepData {
     private const val TOTAL = 16
 
     val DOCUMENT_ID = StepInfo(R.string.document_id, 1, TOTAL)
+    val AML_VALIDATION    = StepInfo(R.string.aml_validation,2,  TOTAL)
 
 }
