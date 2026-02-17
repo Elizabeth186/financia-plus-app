@@ -13,6 +13,8 @@
     <!-- step titles -->
     <string name="document_id">Identificación</string>
     <string name="aml_validation">Validando identidad…</string>
+    <string name="client_check">Verificando cliente…</string>
+
 
 
     <!-- TODO: Onboarding -->
@@ -26,14 +28,39 @@
     <!-- AML Validation -->
     <string name="aml_success">Validación exitosa</string>
     <string name="aml_success_detail">No se encontraron restricciones AML.</string>
-    <string name="aml_blocked">Proceso bloqueado</string>
     <string name="aml_blocked_detail">No es posible continuar con el proceso de onboarding.</string>
     <string name="aml_validating">Validando identidad…</string>
+
+    <!-- Client Check -->
+    <string name="client_check_success">Cliente existente</string>
+    <string name="client_check_invalid_score">Tu score crediticio no cumple con los requisitos mínimos</string>
+    <string name="client_check_new">Cliente nuevo</string>
+    <string name="client_check_continue_request">Continuar con el proceso de solicitud</string>
+    <string name="client_check_checking">Verificando cliente…</string>
+    <string name="client_check_existing">Cliente existente</string>
+    <string name="client_check_customer_data_completed">Datos del cliente completados</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- message response -->
     <string name="data_empty">No se encontraron datos</string>
     <string name="er">Ocurrió un error al procesar la solicitud.</string>
+    <string name="blocked_process">Proceso bloqueado</string>
+    <string name="error_verified">Error al verificar</string>
 
 
 </resources>

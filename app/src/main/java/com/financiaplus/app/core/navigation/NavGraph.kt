@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.financiaplus.app.feature.onboarding.presentation.aml_validation.AmlValidationRoot
+import com.financiaplus.app.feature.onboarding.presentation.client_check.ClientCheckRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_id.DocumentIdRoot
 
 
@@ -22,6 +23,10 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.AmlValidation.route) {
             AmlValidationRoot(navController = navController)
         }
+        composable(Screen.ClientCheck.route) {
+            ClientCheckRoot(navController = navController)
+        }
+
 
     }
 }
