@@ -1,5 +1,6 @@
 package com.financiaplus.app.core.ui
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -20,7 +21,7 @@ import com.financiaplus.app.R
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FinanciaDropdown(
-    label: Int,
+    @StringRes label: Int = R.string.app_name,
     options: List<Pair<String, String>>,
     selectedCode: String,
     onOptionSelected: (String) -> Unit,
@@ -36,7 +37,7 @@ fun FinanciaDropdown(
         FinancialTextField(
             value = selectedLabel,
             onValueChange = {},
-            label = stringResource( label),
+            label = label,
             trailingIcon = {
                 ExposedDropdownMenuDefaults.TrailingIcon(expanded = expanded)
             },

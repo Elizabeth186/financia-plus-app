@@ -9,4 +9,19 @@
     <string name="retry">Reintentar</string>
     <string name="finish">Finalizar</string>
 
+    <!-- step titles -->
+    <string name="document_id">Identificación</string>
+
+
+    <!-- TODO: Onboarding -->
+
+    <!-- DocumentId -->
+    <string name="document_id_subtitle">¿Cuál es tu número de documento?</string>
+    <string name="document_id_indication">Lo usaremos para verificar tu identidad.</string>
+    <string name="document_id_number">Número de documento</string>
+    <string name="document_id_error">Debes ingresar un número de documento válido.</string>
+
+
+
+
 </resources>

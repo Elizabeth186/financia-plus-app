@@ -1,0 +1,16 @@
+package com.financiaplus.app.core.navigation
+
+import com.financiaplus.app.R
+
+data class StepInfo(
+    val title: Int,
+    val current: Int,
+    val total: Int
+)
+
+object StepData {
+    private const val TOTAL = 16
+
+    val DOCUMENT_ID = StepInfo(R.string.document_id, 1, TOTAL)
+
+}
