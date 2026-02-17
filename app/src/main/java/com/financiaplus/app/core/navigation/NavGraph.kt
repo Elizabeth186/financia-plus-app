@@ -6,6 +6,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.financiaplus.app.feature.onboarding.presentation.aml_validation.AmlValidationRoot
 import com.financiaplus.app.feature.onboarding.presentation.client_check.ClientCheckRoot
+import com.financiaplus.app.feature.onboarding.presentation.document_capture.DocumentCaptureRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_id.DocumentIdRoot
 
 
@@ -26,6 +27,11 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.ClientCheck.route) {
             ClientCheckRoot(navController = navController)
         }
+        composable(Screen.DocumentCapture.route) {
+            DocumentCaptureRoot(navController = navController)
+        }
+
+
 
 
     }
@@ -35,6 +41,8 @@ fun SaveStartRoute(savedStep: Int): String {
     return when (savedStep) {
         StepData.DOCUMENT_ID.current -> Screen.DocumentId.route
         StepData.AML_VALIDATION.current -> Screen.AmlValidation.route
+        StepData.CLIENT_CHECK.current -> Screen.ClientCheck.route
+
         else -> Screen.DocumentId.route
     }
 }
