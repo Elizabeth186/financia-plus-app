@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FinanciaPlus</string>
+
+    <!-- btn actions -->
+    <string name="next">Continuar</string>
+    <string name="back">Regresar</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+    <string name="finish">Finalizar</string>
+
 </resources>
