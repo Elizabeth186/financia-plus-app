@@ -50,11 +50,14 @@ class SessionManager @Inject constructor(
 
     companion object {
         const val KEY_CURRENT_STEP = "current_step"
+        const val KEY_FULL_NAME = "full_name"
         const val KEY_DOCUMENT_ID = "document_id"
+        const val KEY_BIRTH_DATE = "birth_date"
         const val KEY_EMAIL = "email"
         const val KEY_PHONE = "phone"
         const val KEY_ADDRESS = "address"
         const val KEY_GENDER = "gender"
+        const val KEY_DOCUMENT_IMAGE = "document_image"
         const val KEY_SELFIE_IMAGE = "selfie_image"
         const val KEY_GEO_IP = "geo_ip"
         const val KEY_GEO_CITY = "geo_city"

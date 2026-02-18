@@ -16,6 +16,8 @@
     <string name="client_check">Verificando cliente…</string>
     <string name="document_capture">Capturando documento</string>
     <string name="document_review">Revisando datos</string>
+    <string name="personal_data">Completando datos</string>
+
 
 
     <!-- TODO: Onboarding -->
@@ -56,6 +58,19 @@
     <string name="doc_review_name">Nombre</string>
     <string name="doc_review_birth_date">Fecha de nacimiento</string>
     <string name="doc_review_confirm">Confirmar y continuar</string>
+
+    <!-- Personal Data -->
+    <string name="personal_data_document">Datos extraídos del documento</string>
+    <string name="personal_data_full_name">Nombre completo</string>
+    <string name="personal_data_birth_date">Fecha de nacimiento</string>
+    <string name="personal_data_contact">Completa tu información de contacto</string>
+    <string name="personal_data_email">Correo electrónico</string>
+    <string name="personal_data_phone">Teléfono</string>
+    <string name="personal_data_address">Dirección</string>
+    <string name="personal_data_gender">Género</string>
+    <string name="personal_data_continue">Continuar</string>
+    <string name="personal_data_error_email">Debes ingresar un correo electrónico válido.</string>
+    <string name="personal_data_error_phone">Debes ingresar un número de teléfono válido.</string>
 
 
 
