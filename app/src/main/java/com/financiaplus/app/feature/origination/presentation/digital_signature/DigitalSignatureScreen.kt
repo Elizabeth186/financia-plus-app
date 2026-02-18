@@ -27,6 +27,7 @@ import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
@@ -120,6 +121,7 @@ fun DigitalSignatureScreen(
                 Canvas(
                     modifier = Modifier
                         .fillMaxSize()
+                        .clipToBounds()
                         .pointerInput(Unit) {
                             detectDragGestures(
                                 onDragStart = { offset ->
