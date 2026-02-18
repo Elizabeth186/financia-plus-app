@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.financiaplus.app.feature.onboarding.presentation.aml_validation.AmlValidationRoot
+import com.financiaplus.app.feature.onboarding.presentation.biometric_validation.BiometricValidationRoot
 import com.financiaplus.app.feature.onboarding.presentation.client_check.ClientCheckRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_capture.DocumentCaptureRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_id.DocumentIdRoot
@@ -42,6 +43,10 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.SelfieCapture.route) {
             SelfieCaptureRoot(navController = navController)
         }
+        composable(Screen.BiometricValidation.route) {
+            BiometricValidationRoot(navController = navController)
+        }
+
 
 
 
@@ -60,9 +65,7 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.DOCUMENT_CAPTURE.current -> Screen.DocumentCapture.route
         StepData.DOCUMENT_REVIEW.current -> Screen.DocumentReview.route
         StepData.PERSONAL_DATA.current -> Screen.PersonalData.route
-
-
-
+        StepData.SELFIE_CAPTURE.current -> Screen.SelfieCapture.route
 
         else -> Screen.DocumentId.route
     }
