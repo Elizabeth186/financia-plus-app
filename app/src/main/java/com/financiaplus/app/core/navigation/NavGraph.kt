@@ -85,10 +85,7 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.GEO_LOCATION.current -> Screen.GeoLocation.route
         StepData.ECONOMIC_PROFILE.current -> Screen.EconomicProfile.route
         StepData.FUNDS_DECLARATION.current -> Screen.FundsDeclaration.route
-
-
-
-
+        StepData.ADDRESS_PROOF.current -> Screen.AddressProof.route
 
         else -> Screen.DocumentId.route
     }

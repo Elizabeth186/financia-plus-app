@@ -14,14 +14,16 @@
     <string name="document_id">Identificación</string>
     <string name="aml_validation">Validando identidad…</string>
     <string name="client_check">Verificando cliente…</string>
-    <string name="document_capture">Capturando documento</string>
-    <string name="document_review">Revisando datos</string>
-    <string name="personal_data">Completando datos</string>
-    <string name="selfie_capture">Capturando selfie</string>
+    <string name="document_capture">Capturar documento</string>
+    <string name="document_review">Revisar datos</string>
+    <string name="personal_data">Completar datos</string>
+    <string name="selfie_capture">Capturar selfie</string>
     <string name="biometric_validation">Validando identidad digital</string>
-    <string name="geo_location">Verificando ubicación</string>
-    <string name="economic_profile">Completando perfil económico</string>
-    <string name="funds_declaration">Declarando origen de fondos</string>
+    <string name="geo_location">Verificar ubicación</string>
+    <string name="economic_profile">Completar perfil económico</string>
+    <string name="funds_declaration">Declaracion de origen de fondos</string>
+    <string name="address_proof">Comprobante de domicilio</string>
+
 
 
 
@@ -111,6 +113,15 @@
     <string name="funds_declaration_origin_detail">Requisito normativo para cumplir con regulaciones AML.</string>
     <string name="funds_declaration_principal_origin">Origen principal de ingresos</string>
     <string name="funds_declaration_additional_info">Información adicional (opcional)</string>
+
+    <!-- Address Proof -->
+    <string name="proof_update_doc">Actualizar documento</string>
+    <string name="proof_update_doc_detail">Puede ser recibo de luz, agua, teléfono o estado de cuenta bancario.</string>
+    <string name="proof_update_doc_loaded">Documento cargado</string>
+    <string name="proof_update_doc_upload_dont_exist">No hay documento cargado</string>
+    <string name="proof_update_doc_upload">Cargar documento</string>
+    <string name="proof_update_doc_remove">Eliminar</string>
+
 
 
 

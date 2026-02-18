@@ -17,6 +17,9 @@ sealed class Screen(val route: String) {
     // Origination
     object EconomicProfile : Screen("onboarding/economic_profile")
     object FundsDeclaration : Screen("onboarding/funds_declaration")
+    object AddressProof : Screen("onboarding/address_proof")
+
+
 
 
 
