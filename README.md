@@ -2,6 +2,12 @@
 
 Aplicación móvil para solicitud de tarjeta de crédito con validaciones AML, scoring crediticio y captura biométrica.
 
+## 🎥 Demo en Video
+
+[▶️ Ver demo completa del flujo (1:03)](https://drive.google.com/file/d/1xH64HJ9xKWwcpRdnxxaShH6P2ckzJ_OM/view?usp=share_link)
+
+*Flujo completo: ingreso de datos → validaciones → aprobación*
+
 ## 🚀 Tecnologías
 
 **App Android:**
