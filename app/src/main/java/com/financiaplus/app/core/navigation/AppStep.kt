@@ -21,6 +21,8 @@ object StepData {
     val BIOMETRIC         = StepInfo(R.string.biometric_validation,8,  TOTAL)
     val GEO_LOCATION      = StepInfo(R.string.geo_location,9,  TOTAL)
     val ECONOMIC_PROFILE  = StepInfo(R.string.economic_profile,10,  TOTAL)
+    val FUNDS_DECLARATION = StepInfo(R.string.funds_declaration,11,  TOTAL)
+
 
 
 

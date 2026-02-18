@@ -21,6 +21,8 @@
     <string name="biometric_validation">Validando identidad digital</string>
     <string name="geo_location">Verificando ubicación</string>
     <string name="economic_profile">Completando perfil económico</string>
+    <string name="funds_declaration">Declarando origen de fondos</string>
+
 
 
     <!-- TODO: Onboarding -->
@@ -103,6 +105,13 @@
     <string name="economic_pro_monthly_income">Ingresos mensuales (USD)</string>
     <string name="economic_pro_occupation">Ocupación o profesión</string>
     <string name="economic_pro_dependents">Número de dependientes</string>
+
+    <!-- Funds Declaration -->
+    <string name="funds_declaration_origin">Declaración de origen de fondos</string>
+    <string name="funds_declaration_origin_detail">Requisito normativo para cumplir con regulaciones AML.</string>
+    <string name="funds_declaration_principal_origin">Origen principal de ingresos</string>
+    <string name="funds_declaration_additional_info">Información adicional (opcional)</string>
+
 
 
 

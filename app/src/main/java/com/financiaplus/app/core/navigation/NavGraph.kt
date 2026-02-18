@@ -13,6 +13,8 @@ import com.financiaplus.app.feature.onboarding.presentation.document_review.Docu
 import com.financiaplus.app.feature.onboarding.presentation.geo_location.GeoLocationRoot
 import com.financiaplus.app.feature.onboarding.presentation.personal_data.PersonalDataRoot
 import com.financiaplus.app.feature.onboarding.presentation.selfie_capture.SelfieCaptureRoot
+import com.financiaplus.app.feature.origination.presentation.economic_profile.EconomicProfileRoot
+import com.financiaplus.app.feature.origination.presentation.funds_declaration.FundsDeclarationRoot
 
 
 @Composable
@@ -50,6 +52,14 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.GeoLocation.route) {
             GeoLocationRoot(navController = navController)
         }
+        composable(Screen.EconomicProfile.route) {
+            EconomicProfileRoot(navController = navController)
+        }
+        composable(Screen.FundsDeclaration.route) {
+            FundsDeclarationRoot(navController = navController)
+        }
+
+
 
 
 
@@ -73,6 +83,9 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.SELFIE_CAPTURE.current -> Screen.SelfieCapture.route
         StepData.BIOMETRIC.current -> Screen.BiometricValidation.route
         StepData.GEO_LOCATION.current -> Screen.GeoLocation.route
+        StepData.ECONOMIC_PROFILE.current -> Screen.EconomicProfile.route
+        StepData.FUNDS_DECLARATION.current -> Screen.FundsDeclaration.route
+
 
 
 
