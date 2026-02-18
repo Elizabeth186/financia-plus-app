@@ -29,6 +29,7 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import com.financiaplus.app.R
+import com.financiaplus.app.core.navigation.Screen
 import com.financiaplus.app.core.navigation.StepData
 import com.financiaplus.app.core.ui.FinanciaButton
 import com.financiaplus.app.core.ui.FinancialTopBar
@@ -44,7 +45,12 @@ fun ResultRoot(
         uiState = uiState,
         onFinish = {
             viewModel.onFinish()
-            navController.popBackStack(navController.graph.startDestinationId, false)
+            navController.navigate(Screen.DocumentId.route) {
+                popUpTo(navController.graph.startDestinationId) {
+                    inclusive = true
+                }
+            }
+
         }
     )
 }

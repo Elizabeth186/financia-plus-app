@@ -45,5 +45,6 @@ class ResultViewModel @Inject constructor(
 
     fun onFinish() {
         sessionManager.clearDraft()
+        sessionManager.saveCurrentStep(0)
     }
 }
