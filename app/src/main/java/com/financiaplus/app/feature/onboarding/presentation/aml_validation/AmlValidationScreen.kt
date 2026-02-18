@@ -89,14 +89,14 @@ fun AmlValidationScreen(
                     )
                     Spacer(Modifier.height(16.dp))
                     Text(
-                        text = stringResource(id = R.string.aml_validation),
+                        text = stringResource(id = R.string.blocked_process),
                         style = MaterialTheme.typography.headlineSmall,
                         fontWeight = FontWeight.Bold,
                         color = Color.Red
                     )
                     Spacer(Modifier.height(8.dp))
                     Text(
-                        text = stringResource(id = R.string.aml_success_detail),
+                        text = stringResource(id = R.string.aml_blocked_title),
                         textAlign = TextAlign.Center,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )

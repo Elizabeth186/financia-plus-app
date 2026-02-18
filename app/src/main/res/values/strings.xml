@@ -40,6 +40,7 @@
     <!-- AML Validation -->
     <string name="aml_success">Validación exitosa</string>
     <string name="aml_success_detail">No se encontraron restricciones AML.</string>
+    <string name="aml_blocked_title">Se encontraron restricciones AML.</string>
     <string name="aml_blocked_detail">No es posible continuar con el proceso de onboarding.</string>
     <string name="aml_validating">Validando identidad…</string>
 
