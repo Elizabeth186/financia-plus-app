@@ -69,6 +69,14 @@
     <string name="selfie_take_capture">Capturar selfie</string>
     <string name="selfie_quality_error">La calidad de la selfie no es suficiente</string>
 
+    <!-- Biometric Validation -->
+    <string name="biometric_loading">Validando identidad digital…</string>
+    <string name="biometric_loading_detail">Comparamos tu rostro con nuestros registros</string>
+    <string name="biometric_approved">Autenticación exitosa</string>
+    <string name="biometric_approved_detail">Tu rostro coincide con nuestros registros</string>
+
+
+
 
 
 
