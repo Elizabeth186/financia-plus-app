@@ -25,6 +25,7 @@ import com.financiaplus.app.core.navigation.StepData
 import com.financiaplus.app.core.ui.FinanciaButton
 import com.financiaplus.app.core.ui.FinancialTextField
 import com.financiaplus.app.core.ui.FinancialTopBar
+import com.financiaplus.app.core.utils.Masks
 
 @Composable
 fun DocumentIdRoot(
@@ -76,7 +77,7 @@ fun DocumentIdScreen(
             Spacer(Modifier.height(8.dp))
             FinancialTextField(
                 value = uiState.documentId,
-                onValueChange = onDocumentIdChanged,
+                onValueChange =  { onDocumentIdChanged(Masks.dui(it)) },
                 label = R.string.document_id_number,
                 isError = uiState.error != null,
                 errorMessage = uiState.error.toString()

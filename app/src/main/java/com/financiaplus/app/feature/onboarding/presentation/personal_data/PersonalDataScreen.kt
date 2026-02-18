@@ -29,6 +29,7 @@ import com.financiaplus.app.core.ui.FinanciaButton
 import com.financiaplus.app.core.ui.FinanciaDropdown
 import com.financiaplus.app.core.ui.FinancialTextField
 import com.financiaplus.app.core.ui.FinancialTopBar
+import com.financiaplus.app.core.utils.Masks
 
 @Composable
 fun PersonalDataRoot(
@@ -114,7 +115,7 @@ fun PersonalDataScreen(
             )
             FinancialTextField(
                 value = uiState.phone,
-                onValueChange = onPhoneChange,
+                onValueChange = { onPhoneChange(Masks.phoneSv(it)) },
                 label = R.string.personal_data_phone ,
                 keyboardType = KeyboardType.Phone
             )
