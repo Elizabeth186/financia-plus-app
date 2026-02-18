@@ -33,10 +33,12 @@ class DigitalSignatureViewModel @Inject constructor(
     }
 
     fun onSign() {
+        sessionManager.saveDraftField(SessionManager.KEY_SIGNATURE, "true")
         _uiState.update { it.copy(hasSigned = true) }
     }
 
     fun onClearSignature() {
+        sessionManager.saveDraftField(SessionManager.KEY_SIGNATURE, "false")
         _uiState.update { it.copy(hasSigned = false) }
     }
 
