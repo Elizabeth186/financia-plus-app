@@ -6,10 +6,11 @@ import androidx.security.crypto.MasterKey
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
+import androidx.core.content.edit
 
 @Singleton
 class SessionManager @Inject constructor(
-    @ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context,
 ) {
 
     private val masterKey = MasterKey.Builder(context)
@@ -25,7 +26,7 @@ class SessionManager @Inject constructor(
     )
 
     fun saveDraftField(key: String, value: String) {
-        prefs.edit().putString(key, value).apply()
+        prefs.edit { putString(key, value) }
     }
 
     fun getDraftField(key: String): String? {
@@ -33,11 +34,11 @@ class SessionManager @Inject constructor(
     }
 
     fun clearDraft() {
-        prefs.edit().clear().apply()
+        prefs.edit { clear() }
     }
 
     fun saveCurrentStep(step: Int) {
-        prefs.edit().putInt(KEY_CURRENT_STEP, step).apply()
+        prefs.edit { putInt(KEY_CURRENT_STEP, step) }
     }
 
     fun getCurrentStep(): Int {
@@ -45,7 +46,7 @@ class SessionManager @Inject constructor(
     }
 
     fun saveDocumentId(documentId: String) {
-        prefs.edit().putString(KEY_DOCUMENT_ID, documentId).apply()
+        prefs.edit { putString(KEY_DOCUMENT_ID, documentId) }
     }
 
     companion object {
