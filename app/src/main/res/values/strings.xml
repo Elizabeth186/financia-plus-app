@@ -23,8 +23,10 @@
     <string name="economic_profile">Completar perfil económico</string>
     <string name="funds_declaration">Declaracion de origen de fondos</string>
     <string name="address_proof">Comprobante de domicilio</string>
-
-
+    <string name="card_selection">Seleccionar tarjeta</string>
+    <string name="digital_signature">Firmar términos y condiciones</string>
+    <string name="summary">Resumen</string>
+    <string name="result">Resultado</string>
 
 
     <!-- TODO: Onboarding -->
@@ -121,6 +123,45 @@
     <string name="proof_update_doc_upload_dont_exist">No hay documento cargado</string>
     <string name="proof_update_doc_upload">Cargar documento</string>
     <string name="proof_update_doc_remove">Eliminar</string>
+
+    <!-- Card Selection -->
+    <string name="card_selection_title">Elige tu tarjeta de crédito</string>
+    <string name="card_selection_subtitle">Selecciona el tipo de tarjeta y el límite que mejor se ajuste a tus necesidades.</string>
+    <string name="card_selection_card_type">Tipo de tarjeta</string>
+    <string name="card_selection_credit_limit">Límite de crédito</string>
+
+    <!-- Digital Signature -->
+    <string name="digital_signature_title">Firma los términos y condiciones</string>
+    <string name="digital_signature_indication">Dibuja tu firma en el recuadro y acepta los términos.</string>
+    <string name="digital_signature_clear">Limpiar firma</string>
+    <string name="digital_signature_accept_terms">Acepto los términos y condiciones</string>
+    <string name="digital_signature_into_capture">Firma aqui</string>
+
+    <!-- Summary -->
+    <string name="summary_review_info">Revisa tu solicitud</string>
+    <string name="summary_details">Verifica que toda la información sea correcta antes de enviar.</string>
+    <string name="summary_personal_data">Datos Personales</string>
+    <string name="summary_economic_profile">Perfil Económico</string>
+    <string name="summary_card_selection">Producto Solicitado</string>
+    <string name="summary_full_name">Nombre</string>
+    <string name="summary_document_id">Documento</string>
+    <string name="summary_email">Email</string>
+    <string name="summary_phone">Teléfono</string>
+    <string name="summary_monthly_income">Ingresos mensuales</string>
+    <string name="summary_occupation">Ocupación</string>
+    <string name="summary_card_type">Tipo de Tarjeta</string>
+    <string name="summary_credit_limit">Límite de Crédito</string>
+    <string name="summary_confirm">Confirmar y enviar</string>
+
+    <!-- result -->
+    <string name="result_approved">Aprobado</string>
+    <string name="result_approved_detail">Tu solicitud ha sido aprobada.</string>
+    <string name="result_pending">Pendiente</string>
+    <string name="result_pending_detail">Tu solicitud está en proceso de revisión.</string>
+    <string name="result_rejected">Rechazado</string>
+    <string name="result_rejected_detail">Tu solicitud ha sido rechazada</string>
+
+
 
 
 
