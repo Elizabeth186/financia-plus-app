@@ -14,6 +14,10 @@ sealed class Screen(val route: String) {
     object BiometricValidation : Screen("onboarding/biometric_validation")
     object GeoLocation : Screen("onboarding/geo_location")
 
+    // Origination
+    object EconomicProfile : Screen("onboarding/economic_profile")
+
+
 
 
 

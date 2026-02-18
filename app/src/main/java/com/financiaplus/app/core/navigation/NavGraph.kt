@@ -10,6 +10,7 @@ import com.financiaplus.app.feature.onboarding.presentation.client_check.ClientC
 import com.financiaplus.app.feature.onboarding.presentation.document_capture.DocumentCaptureRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_id.DocumentIdRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_review.DocumentReviewRoot
+import com.financiaplus.app.feature.onboarding.presentation.geo_location.GeoLocationRoot
 import com.financiaplus.app.feature.onboarding.presentation.personal_data.PersonalDataRoot
 import com.financiaplus.app.feature.onboarding.presentation.selfie_capture.SelfieCaptureRoot
 
@@ -46,6 +47,10 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.BiometricValidation.route) {
             BiometricValidationRoot(navController = navController)
         }
+        composable(Screen.GeoLocation.route) {
+            GeoLocationRoot(navController = navController)
+        }
+
 
 
 
@@ -67,6 +72,8 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.PERSONAL_DATA.current -> Screen.PersonalData.route
         StepData.SELFIE_CAPTURE.current -> Screen.SelfieCapture.route
         StepData.BIOMETRIC.current -> Screen.BiometricValidation.route
+        StepData.GEO_LOCATION.current -> Screen.GeoLocation.route
+
 
 
 

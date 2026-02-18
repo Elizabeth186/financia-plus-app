@@ -20,9 +20,7 @@
     <string name="selfie_capture">Capturando selfie</string>
     <string name="biometric_validation">Validando identidad digital</string>
     <string name="geo_location">Verificando ubicación</string>
-
-
-
+    <string name="economic_profile">Completando perfil económico</string>
 
 
     <!-- TODO: Onboarding -->
@@ -84,13 +82,6 @@
     <string name="geo_error">Error al obtener ubicación</string>
     <string name="geo_success">Ubicación verificada</string>
 
-
-
-
-
-
-
-
     <!-- Personal Data -->
     <string name="personal_data_document">Datos extraídos del documento</string>
     <string name="personal_data_full_name">Nombre completo</string>
@@ -104,6 +95,15 @@
     <string name="personal_data_error_email">Debes ingresar un correo electrónico válido.</string>
     <string name="personal_data_error_phone">Debes ingresar un número de teléfono válido.</string>
 
+    <!-- TODO: Origination -->
+
+    <!-- Economic Profile -->
+    <string name="economic_pro_economic_situation">Cuéntanos sobre tu situación económica</string>
+    <string name="economic_pro_economic_situation_detail">Esta información nos ayuda a ofrecerte el mejor producto.</string>
+    <string name="economic_pro_monthly_income">Ingresos mensuales (USD)</string>
+    <string name="economic_pro_occupation">Ocupación o profesión</string>
+    <string name="economic_pro_dependents">Número de dependientes</string>
+
 
 
     <!-- message response -->
@@ -111,8 +111,6 @@
     <string name="er">Ocurrió un error al procesar la solicitud.</string>
     <string name="blocked_process">Proceso bloqueado</string>
     <string name="error_verified">Error al verificar</string>
-
-
 
 
 </resources>
