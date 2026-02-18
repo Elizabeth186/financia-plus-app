@@ -10,6 +10,7 @@ import com.financiaplus.app.feature.onboarding.presentation.document_capture.Doc
 import com.financiaplus.app.feature.onboarding.presentation.document_id.DocumentIdRoot
 import com.financiaplus.app.feature.onboarding.presentation.document_review.DocumentReviewRoot
 import com.financiaplus.app.feature.onboarding.presentation.personal_data.PersonalDataRoot
+import com.financiaplus.app.feature.onboarding.presentation.selfie_capture.SelfieCaptureRoot
 
 
 @Composable
@@ -38,6 +39,10 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.PersonalData.route) {
             PersonalDataRoot(navController = navController)
         }
+        composable(Screen.SelfieCapture.route) {
+            SelfieCaptureRoot(navController = navController)
+        }
+
 
 
 
@@ -54,6 +59,8 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.CLIENT_CHECK.current -> Screen.ClientCheck.route
         StepData.DOCUMENT_CAPTURE.current -> Screen.DocumentCapture.route
         StepData.DOCUMENT_REVIEW.current -> Screen.DocumentReview.route
+        StepData.PERSONAL_DATA.current -> Screen.PersonalData.route
+
 
 
 

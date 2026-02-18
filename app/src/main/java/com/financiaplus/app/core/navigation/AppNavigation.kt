@@ -10,6 +10,8 @@ sealed class Screen(val route: String) {
     object DocumentCapture : Screen("onboarding/document_capture")
     object DocumentReview : Screen("onboarding/document_review")
     object PersonalData : Screen("onboarding/personal_data")
+    object SelfieCapture : Screen("onboarding/selfie_capture")
+
 
 
 

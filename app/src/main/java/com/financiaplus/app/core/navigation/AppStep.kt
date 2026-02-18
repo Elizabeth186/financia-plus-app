@@ -17,6 +17,8 @@ object StepData {
     val DOCUMENT_CAPTURE  = StepInfo(R.string.document_capture,4,  TOTAL)
     val DOCUMENT_REVIEW   = StepInfo(R.string.document_review,5,  TOTAL)
     val PERSONAL_DATA     = StepInfo(R.string.personal_data,6,  TOTAL)
+    val SELFIE_CAPTURE    = StepInfo(R.string.selfie_capture,7,  TOTAL)
+
 
 
 

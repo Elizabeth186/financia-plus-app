@@ -17,6 +17,8 @@
     <string name="document_capture">Capturando documento</string>
     <string name="document_review">Revisando datos</string>
     <string name="personal_data">Completando datos</string>
+    <string name="selfie_capture">Capturando selfie</string>
+
 
 
 
@@ -58,6 +60,17 @@
     <string name="doc_review_name">Nombre</string>
     <string name="doc_review_birth_date">Fecha de nacimiento</string>
     <string name="doc_review_confirm">Confirmar y continuar</string>
+
+    <!-- Selfie Capture -->
+    <string name="selfie_take_verify">Toma una selfie para verificar tu identidad</string>
+    <string name="selfie_indication">Centra tu rostro en el círculo y asegúrate de tener buena iluminación</string>
+    <string name="selfie_into_capture">Presiona capturar</string>
+    <string name="selfie_captured">Selfie capturada</string>
+    <string name="selfie_take_capture">Capturar selfie</string>
+    <string name="selfie_quality_error">La calidad de la selfie no es suficiente</string>
+
+
+
 
     <!-- Personal Data -->
     <string name="personal_data_document">Datos extraídos del documento</string>
