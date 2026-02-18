@@ -13,32 +13,40 @@ Aplicación móvil para solicitud de tarjeta de crédito con validaciones AML, s
 - Spring Boot (Kotlin)
 - REST APIs mockeadas
 
+- **Repositorios separados:**
+- [AML API](https://github.com/Elizabeth186/financia-plus-aml-api) - Puerto 8081
+- [BANK API](https://github.com/Elizabeth186/financia-plus-bank-api) - Puerto 8082
+
 ---
 
-## 📦 Requisitos
+**Instrucciones de ejecución:**
+```bash
+# Clonar App
+git clone https://github.com/tu_usuario/financia-plus-app.git
+cd ruta/repositorio
+Run
 
-- Android Studio Panda
+# Clonar e iniciar AML API
+git clone https://github.com/tu_usuario/financia-plus-aml-api.git
+cd ruta/repositorio
+./gradlew bootRun
+
+# Clonar e iniciar Bank API
+git clone https://github.com/tu_usuario/financia-plus-bank-api.git
+cd ruta/repositorio
+./gradlew bootRun
+```
+> **Nota1:** También puede descargar el archivo .zip desde GitHub, descomprimir y abrir cada proyecto en el IDE de su preferencia.
+> >**Nota2:** El api AML admite 2 tipos de busqueda por Nombre y Por Docmuento 
+---
+
+## Requisitos
+
+- Android Studio Panda 1 | 2025.3.1
 - JDK 17+
 - Emulador Android o dispositivo físico
 
 ---
-
-## ▶️ Ejecutar el Proyecto
-
-### 1. Levantar las APIs
-
-Abre en IntelliJ IDEA o terminal:
-```bash
-# AML API (puerto 8081)
-cd ruta/aml-api
-./gradlew bootRun
-
-# Bank API (puerto 8082)
-cd ruta/bank-api
-./gradlew bootRun
-```
-
->**Nota:** El api AML admite 2 tipos de busqueda por Nombre y Por Docmuento 
 
 ### 2. Ejecutar la App Android
 
