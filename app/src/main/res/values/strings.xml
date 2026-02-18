@@ -18,6 +18,9 @@
     <string name="document_review">Revisando datos</string>
     <string name="personal_data">Completando datos</string>
     <string name="selfie_capture">Capturando selfie</string>
+    <string name="biometric_validation">Validando identidad digital</string>
+    <string name="geo_location">Verificando ubicación</string>
+
 
 
 
@@ -74,6 +77,14 @@
     <string name="biometric_loading_detail">Comparamos tu rostro con nuestros registros</string>
     <string name="biometric_approved">Autenticación exitosa</string>
     <string name="biometric_approved_detail">Tu rostro coincide con nuestros registros</string>
+
+    <!-- Geo Location -->
+    <string name="geo_get_ubication">Obteniendo ubicación…</string>
+    <string name="geo_get_ubication_detail">Verificando tu ubicación geográfica</string>
+    <string name="geo_error">Error al obtener ubicación</string>
+    <string name="geo_success">Ubicación verificada</string>
+
+
 
 
 

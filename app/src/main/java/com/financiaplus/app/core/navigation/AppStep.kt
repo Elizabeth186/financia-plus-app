@@ -19,6 +19,8 @@ object StepData {
     val PERSONAL_DATA     = StepInfo(R.string.personal_data,6,  TOTAL)
     val SELFIE_CAPTURE    = StepInfo(R.string.selfie_capture,7,  TOTAL)
     val BIOMETRIC         = StepInfo(R.string.biometric_validation,8,  TOTAL)
+    val GEO_LOCATION      = StepInfo(R.string.geo_location,9,  TOTAL)
+
 
 
 

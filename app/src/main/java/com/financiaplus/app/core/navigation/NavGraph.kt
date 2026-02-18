@@ -66,6 +66,9 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.DOCUMENT_REVIEW.current -> Screen.DocumentReview.route
         StepData.PERSONAL_DATA.current -> Screen.PersonalData.route
         StepData.SELFIE_CAPTURE.current -> Screen.SelfieCapture.route
+        StepData.BIOMETRIC.current -> Screen.BiometricValidation.route
+
+
 
         else -> Screen.DocumentId.route
     }
