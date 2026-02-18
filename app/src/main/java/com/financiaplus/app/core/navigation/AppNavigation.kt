@@ -18,6 +18,13 @@ sealed class Screen(val route: String) {
     object EconomicProfile : Screen("onboarding/economic_profile")
     object FundsDeclaration : Screen("onboarding/funds_declaration")
     object AddressProof : Screen("onboarding/address_proof")
+    object CardSelection : Screen("onboarding/card_selection")
+    object DigitalSignature : Screen("onboarding/digital_signature")
+    object Summary : Screen("onboarding/summary")
+    object Result : Screen("onboarding/result")
+
+
+
 
 
 

@@ -23,6 +23,13 @@ object StepData {
     val ECONOMIC_PROFILE  = StepInfo(R.string.economic_profile,10,  TOTAL)
     val FUNDS_DECLARATION = StepInfo(R.string.funds_declaration,11,  TOTAL)
     val ADDRESS_PROOF     = StepInfo(R.string.address_proof,12,  TOTAL)
+    val CARD_SELECTION    = StepInfo(R.string.card_selection,13,  TOTAL)
+    val DIGITAL_SIGNATURE = StepInfo(R.string.digital_signature,14,  TOTAL)
+    val SUMMARY           = StepInfo(R.string.summary,15,  TOTAL)
+    val RESULT            = StepInfo(R.string.result,16,  TOTAL)
+
+
+
 
 
 

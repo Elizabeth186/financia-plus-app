@@ -13,8 +13,13 @@ import com.financiaplus.app.feature.onboarding.presentation.document_review.Docu
 import com.financiaplus.app.feature.onboarding.presentation.geo_location.GeoLocationRoot
 import com.financiaplus.app.feature.onboarding.presentation.personal_data.PersonalDataRoot
 import com.financiaplus.app.feature.onboarding.presentation.selfie_capture.SelfieCaptureRoot
+import com.financiaplus.app.feature.origination.presentation.address_proof.AddressProofRoot
+import com.financiaplus.app.feature.origination.presentation.card_selection.CardSelectionRoot
+import com.financiaplus.app.feature.origination.presentation.digital_signature.DigitalSignatureRoot
 import com.financiaplus.app.feature.origination.presentation.economic_profile.EconomicProfileRoot
 import com.financiaplus.app.feature.origination.presentation.funds_declaration.FundsDeclarationRoot
+import com.financiaplus.app.feature.origination.presentation.result.ResultRoot
+import com.financiaplus.app.feature.origination.presentation.summary.SummaryRoot
 
 
 @Composable
@@ -58,15 +63,21 @@ fun NavGraph(navController: NavHostController,   startRoute: String = Screen.Doc
         composable(Screen.FundsDeclaration.route) {
             FundsDeclarationRoot(navController = navController)
         }
-
-
-
-
-
-
-
-
-
+        composable(Screen.AddressProof.route) {
+            AddressProofRoot(navController = navController)
+        }
+        composable(Screen.CardSelection.route) {
+            CardSelectionRoot(navController = navController)
+        }
+        composable(Screen.DigitalSignature.route) {
+            DigitalSignatureRoot(navController = navController)
+        }
+        composable(Screen.Summary.route) {
+            SummaryRoot(navController = navController)
+        }
+        composable(Screen.Result.route) {
+            ResultRoot(navController = navController)
+        }
 
 
     }
@@ -86,6 +97,10 @@ fun SaveStartRoute(savedStep: Int): String {
         StepData.ECONOMIC_PROFILE.current -> Screen.EconomicProfile.route
         StepData.FUNDS_DECLARATION.current -> Screen.FundsDeclaration.route
         StepData.ADDRESS_PROOF.current -> Screen.AddressProof.route
+        StepData.CARD_SELECTION.current -> Screen.CardSelection.route
+        StepData.DIGITAL_SIGNATURE.current -> Screen.DigitalSignature.route
+        StepData.SUMMARY.current -> Screen.Summary.route
+        StepData.RESULT.current -> Screen.Result.route
 
         else -> Screen.DocumentId.route
     }
