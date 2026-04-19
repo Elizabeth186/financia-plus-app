@@ -134,14 +134,3 @@ financia-plus-app/
 ```
 
 ---
-
-## 📄 Documentación
-
-Ver documento técnico adjunto para detalles sobre:
-- Arquitectura completa
-- Flujo de usuario
-- Puntos críticos y soluciones
-- Propuestas de mejora
-- Métricas recomendadas
-
----
